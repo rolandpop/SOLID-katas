@@ -7,6 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingGameKata.Test", "Bow
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingGameKata", "BowlingGame\BowlingGameKata.csproj", "{50BB7E3E-F622-4EEF-8B17-A0D63506F189}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OCP", "OCP", "{DD835A2D-3D82-44A7-B5C7-D8D61F4AC0BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DIP", "DIP", "{D96C2958-6B19-437F-AE20-5168CA7AABAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayGreeterKata", "DIP\BirthdayGreeterKata\BirthdayGreeterKata.csproj", "{635854DE-498F-45D4-9231-3B88CE7426B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayGreeterKata.Test", "DIP\BirthdayGreeterKata.Test\BirthdayGreeterKata.Test.csproj", "{4BE00435-C279-43EE-A17C-BDD584E78A40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +29,23 @@ Global
 		{50BB7E3E-F622-4EEF-8B17-A0D63506F189}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50BB7E3E-F622-4EEF-8B17-A0D63506F189}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50BB7E3E-F622-4EEF-8B17-A0D63506F189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{635854DE-498F-45D4-9231-3B88CE7426B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{635854DE-498F-45D4-9231-3B88CE7426B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{635854DE-498F-45D4-9231-3B88CE7426B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{635854DE-498F-45D4-9231-3B88CE7426B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE00435-C279-43EE-A17C-BDD584E78A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE00435-C279-43EE-A17C-BDD584E78A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE00435-C279-43EE-A17C-BDD584E78A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE00435-C279-43EE-A17C-BDD584E78A40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0913BE7-DB38-4EA3-882E-A95B91C39E7C} = {DD835A2D-3D82-44A7-B5C7-D8D61F4AC0BD}
+		{50BB7E3E-F622-4EEF-8B17-A0D63506F189} = {DD835A2D-3D82-44A7-B5C7-D8D61F4AC0BD}
+		{635854DE-498F-45D4-9231-3B88CE7426B4} = {D96C2958-6B19-437F-AE20-5168CA7AABAE}
+		{4BE00435-C279-43EE-A17C-BDD584E78A40} = {D96C2958-6B19-437F-AE20-5168CA7AABAE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52463D94-2ECD-4094-A404-8C5931068BBF}
